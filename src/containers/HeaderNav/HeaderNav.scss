@@ -1,0 +1,11 @@
+ui.menu.top-menu {
+    border: none;
+    .logo {
+        width: 17rem;
+    }
+    .nav-container {
+        justify-content: space-between; /*maximize whitespace between elements*/
+        flex-grow: 1;
+        padding: 0
+    }
+}
