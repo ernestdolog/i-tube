@@ -14,5 +14,5 @@ ReactDOM.render(
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
-// https://productioncoder.com/build-youtube-in-react-part-3/ 2.4 beginning
+// https://productioncoder.com/build-youtube-in-react-part-4/ 4.4 finished
 serviceWorker.unregister();

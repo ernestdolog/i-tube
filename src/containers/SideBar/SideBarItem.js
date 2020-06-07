@@ -1,6 +1,6 @@
 import React from 'react';
-import { Menu, Icon } from 'semantic-ui-react'
-import './SideBarItem.scss'
+import { Menu, Icon } from 'semantic-ui-react';
+import './SideBarItem.scss';
 
 
 export function SideBarItem(props) {
