@@ -1,11 +1,11 @@
 import React from 'react';
-import App from './App';
-import { shallow } from 'enzyme';
+import {shallow} from 'enzyme';
+import SideBar from '../SideBar';
 
-describe('App', () => {
+describe('SideBar', () => {
   test('renders', () => {
     const wrapper = shallow(
-      <App/>
+      <SideBar />
     );
     expect(wrapper).toMatchSnapshot();
   });

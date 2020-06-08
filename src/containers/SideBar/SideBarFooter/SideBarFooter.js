@@ -24,3 +24,5 @@ export function SideBarFooter() {
     </React.Fragment>
   );
 }
+
+export default SideBarFooter;

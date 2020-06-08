@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders SideBarHeader 1`] = `
+<MenuItem>
+  <MenuHeader
+    className="side-bar-header"
+  />
+</MenuItem>
+`;
+
+exports[`renders SideBarHeader with title 1`] = `
+<MenuItem>
+  <MenuHeader
+    className="side-bar-header"
+  >
+    TEST TITLE
+  </MenuHeader>
+</MenuItem>
+`;
