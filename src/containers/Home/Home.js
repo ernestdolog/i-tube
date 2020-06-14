@@ -1,10 +1,17 @@
 import React from 'react';
+import './Home.scss';
 import VideoPreview from '../../components/VideoPreview/VideoPreview';
 
 export class Home extends React.Component {
   render() {
     return (
-      <VideoPreview/>
+      <div className='home'>
+        <VideoPreview />
+        <VideoPreview />
+        <VideoPreview />
+        <VideoPreview />
+        <VideoPreview />
+      </div>
     )
   }
 }

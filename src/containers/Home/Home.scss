@@ -1,0 +1,9 @@
+@import '../../styles/shared.scss';
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    margin-top: $header-nav-height;
+    margin-left: $sidebar-left-width;
+}
