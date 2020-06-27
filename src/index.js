@@ -5,8 +5,8 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import 'semantic-ui-css/semantic.min.css';
 import { Provider } from 'react-redux';
-import {BrowserRouter} from 'react-router-dom';
-import {configureStore} from './store/configureStore';
+import { BrowserRouter } from 'react-router-dom';
+import { configureStore } from './store/configureStore';
 
 const store = configureStore();
 
