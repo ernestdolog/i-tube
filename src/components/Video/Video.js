@@ -7,8 +7,12 @@ export function Video(props) {
   if (!props.id) return null
   const embedUrl = `${BASE_EMBED_URL}${props.id}`;
   return (
-    <iframe width={'560'} height={'315'} src={embedUrl} frameBorder='0'
-            allow='autoplay; encrypted-media' allowFullScreen 
-            title='Δέσποινα Βανδή - Γυρίσματα | Despina Vandi - Girismata - Official Video Clip'/>
+    <div className='video-container'>
+      <div className="video">
+        <iframe className='video-player' src={embedUrl} frameBorder='0'
+                allow='autoplay; encrypted-media' allowFullScreen title='video' />
+      </div>
+  
+    </div>
   );
 }
